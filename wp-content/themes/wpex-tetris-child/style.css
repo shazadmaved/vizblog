@@ -1,0 +1,269 @@
+/*
+	Theme Name: Tetris Child Theme
+	Description: Tetris Child Theme
+	Author: Graffiti
+	Template: wpex-tetris
+*/
+/*@import url('../../../css/bootstrap.min.css');*/
+
+
+
+/* pre-header changed to small header to avoid conflict */
+@import url('../../../../css/main.css');
+@import url('../wpex-tetris/style.css');
+
+/*@import url('../../../css/creative.css');
+@import url('../../../css/animate.min.css');
+@import url('../../../css/ihover.css');*/
+
+@font-face {
+   font-family: 'proxima';
+   src: url('../../../../fonts/ProximaNova-Light_0.otf');
+}
+
+@font-face {
+   font-family: 'proximab';
+   src: url('../../../../fonts/ProximaNova-Bold.otf');
+}
+
+
+body{background:#ddd url("../wpex-tetris/images/common-bg.jpg");
+background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: proxima !important;
+    /* color: inherit !important; */
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+#search_container{
+	width: 0px;
+}
+
+#pre-header{
+	       padding: 10px 100px 5px;
+}
+
+
+#main-content {
+    margin: 50px auto;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+    width: 960px;
+}
+
+aside {
+  padding: 0px 0px;
+}
+
+.page-pagination {
+  margin: 20px 0 -5px;
+  }
+
+#pre-head {
+  margin: 0 0 0;
+  margin-bottom: 10px;
+}
+
+.taxanomy-filter{
+	float: left;
+}
+.taxanomy-filter li{
+display: inline;
+font-size: 20px;
+color: #fff;
+  margin-right: 11px;
+}
+.taxanomy-filter li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.taxanomy-filter li .active{
+	
+	color: #EB4752;
+}
+
+
+
+.sf-menu {
+  line-height: 1.0;
+}
+.sf-menu, .sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navigation .sf-menu li {
+  float: left;
+  position: relative;
+}
+
+.h-warp{
+	/*width: 100%;*/
+	margin-bottom: 100px;
+}
+#header-wrap {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+/* pre-header changed to small header to avoid conflict */
+#small-header {
+	color: #fff;
+	text-align: right;
+	padding: 10px 100px 0;
+	margin: 0;
+}
+
+#header-actions {
+	margin: 0;
+}
+/* pre-header changed to small header to avoid conflict */
+#small-header input {
+	background-color: #fff;
+	color: #000;
+	border-width: 0;
+	border-radius: 2px;
+	padding: 0 10px;
+}
+/* pre-header changed to small header to avoid conflict */
+#small-header * {
+	vertical-align: top;
+}
+
+#header {
+	width: 100%;
+	padding: 20px 10px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: none;
+	position: relative;
+}
+
+.vizuri_menu_class {
+	margin-right: 100px;
+}
+
+#navigation {
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  right: 15px;
+  margin-top: -12px;
+}
+
+#navigation .sf-menu > li > a {
+	font-size: 18px;
+	padding-left: 50px;
+}
+
+#wpadminbar {
+	display: none;
+}
+/* pre-header changed to small header to avoid conflict */
+#small-header ul li {
+	display: inline-block;
+	margin-left: 25px;
+	cursor: pointer;
+}
+/* pre-header changed to small header to avoid conflict */
+#small-header ul li span {
+	font-size: 18px;
+}
+
+#header .subnav {
+	display: none;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 82px;
+	left: 0;
+}
+
+#header .subnav .product-subnav-block {
+	width: 24.5%;
+	border-right: 1px solid #bebebe;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 1px;
+	margin: 20px 0;
+	vertical-align: top;
+	height: 210px;
+}
+
+#header .subnav .contact-block {
+	border-width: 0;
+	padding-top: 70px;
+}
+
+#header .subnav .product-subnav-block p {
+	color: #bebebe;
+	text-align: justify;
+}
+
+#header .subnav .product-subnav-block div {
+	color: #bebebe;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#header .subnav .product-subnav-block h3 {
+	color: inherit;
+}
+
+#header .subnav .subnav-list-control li {
+	color: #fff;
+	text-align: left;
+	list-style-type: none;
+}
+
+#header .subnav .subnav-list-control li:hover {
+	color: #f05f40;
+    -webkit-transition: .3s all ease-in-out;
+       -moz-transition: .3s all ease-in-out;
+            transition: .3s all ease-in-out;
+}
+
+#header .subnav .subnav-list-control span {
+	width: 20px;
+	color: inherit;
+	display: inline-block;
+}
+
+#header .subnav .subnav-list-control a {
+	color: inherit;
+}
+
+.floating-header {
+	padding: 20px 20px 20px 37px;
+	display: none;
+}
+
+.floating-header .small-logo {
+	background-image: url(../../../imgs/logo2.png);
+	width: 45px;
+	height: 44px;
+	display: inline-block;
+}
