@@ -1,91 +1,121 @@
 <?php
 /**
- * Footer.php outputs the code for your footer widgets, contains your footer hook and closing body/html tags
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after
+ *
+ * @package Intergalactic
  */
 ?>
 <div class="clear"></div><!-- /clear any floats -->
 </div><!-- /main-content -->
-</div><!-- /wrap -->
 	<div id="footer-wrap">
 		<footer id="footer">
-		<div id="wrap">
-			<aside class="bg-dark" >
-			<div id="footer-widgets" class="clearfix">
-				<section class="middle">
-						<article>
-							<h3 class="footer-head">CONTACT US</h3>
-							<div class="subnav"><ul id="menu-bottom-legal-menu" class="menu"><li id="menu-item-738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-738">									<span class="icon-home_footer_linkedin"></span>
-									&nbsp;
-									<span class="icon-home_footer_Twitterc"></span>
-									&nbsp;
-									<span class="icon-home_footer_FB"></span>
-									&nbsp;
-									<span class="icon-home_footer_youtubec"></span></li>
-							</div>     
-						</article>
-						<article>
-							<h3 class="footer-head">PUBLISHERS</h3>
-							<div class="subnav"><ul id="menu-bottom-careers-menu" class="menu"><li id="menu-item-736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"><a href="">Resources</a></li>
-							<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="http://web.vizury.com/website/in/openings/">Whitepapers</a></li>
-							<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="http://web.vizury.com/website/in/openings/">Reports</a></li>
-							<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="http://web.vizury.com/website/in/openings/">Insights</a></li>
-
-						</ul></div>                
-						</article>						
-						<article>
-							<h3 class="footer-head">ABOUT</h3>
-							<ul class="menu">
-							<li><a href="" title=""> Company </a></li>
-							<li><a href="" title="Customers"> Team </a></li>
-							<li><a href="" title="Publishers"> Careers </a></li>
-						</article>
-						<article>
-							<h3 class="footer-head">PRODUCTS</h3>
-							<ul class="menu">
-							<li><a href="" title="Events"> Engage </a></li>
-							<li><a href="" title="In the news"> Convert XP</a></li>
-							<li><a href="" title="Press Releases"> App Re-Engagement </a></li>
-							<li><a href="" title="Press Releases"> Facebook Marketing </a></li>
-
-						</ul>
-							
-						</article>
-						<article>
-							<h3 class="footer-head">PRODUCTS</h3>
-							<div class="subnav"><ul id="menu-bottom-products-menu" class="menu">
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">Vizury Reach</a></li>
-							    <li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734"><a href="">MobiConvert</a></li>
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">Vizury Reach</a></li>
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">Convert XP</a></li>
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">App Re-Engagement</a></li>
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">Mobile Web-App Engagement</a></li>
-								<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="">Facebook Marketing </a></li>
-						
-						</ul></div>                
-						</article>						
-				</section>				
-			</div><!-- /footer-widgets -->
-			</aside>
-		</div>				
-		</footer><!-- /footer -->
+		    <aside class="bg-dark">
+		        <div class="container text-center">
+		            <div class="has-text white-text" class="call-to-action">
+						<div class="col-lg-2 col-md-2 col-sm-2 text-left">
+							<ul style="list-style: none;">
+								<li>
+									<a href='/products'>PRODUCTS</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='/reach'>Reach</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='/convert'>Convert</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='/engage'>Engage</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 text-left">
+							<ul style="list-style: none;">
+								<li>
+									<a href='#'>ABOUT</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Company</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Team</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Careers</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Press Room</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 text-left">
+							<ul style="list-style: none;">
+								<li>
+									<a href='#'>PUBLISHERS</a>
+								</li>
+								<li>
+									<a href='#'>RESOURCES</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Whitepapers</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Reports</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Insights</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 text-left">
+							<ul style="list-style: none;">
+								<li>
+									<a href='#'>BLOG</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Marketing</a>
+								</li>
+								<li class="footersubmenu">
+									<a href='#'>Technology</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 text-left">
+							<ul style="list-style: none;">
+								<li>
+									<a href='/contact-us'>CONTACT US</a>
+								</li>
+								<li>
+									<a href='https://www.linkedin.com/company/vizury-interactive'><span class="linkedin-contact"></span></a>
+									&nbsp;&nbsp;
+									<a href='https://twitter.com/VizuryOneToOne'><span class="twitter-contact"></span></a>
+									&nbsp;&nbsp;
+									<a href='https://www.facebook.com/vizury1to1'><span class="fb-contact"></span></a>
+									&nbsp;&nbsp;
+									<a href='https://www.youtube.com/user/vizury1to1'><span class="youtube-contact"></span></a>
+								</li>
+							</ul>
+						</div>
+		            </div>
+		        </div>
+		    </aside>
+    	</footer><!-- /footer -->
 	</div><!-- /footer-wrap -->
-<?php wp_footer(); // Footer hook, do not delete, ever ?>
+</div><!-- /wrap -->
 
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fittext.js"></script>
+<script type="text/javascript" src="/js/selectFx.js"></script>
+<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" src="/js/wow.min.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/js/creative.js"></script>
+<!-- <script type="text/javascript" src="/js/SmoothScroll.js"></script> -->
+<script type="text/javascript" src="/js/classie.js"></script>
+<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/js/kwiks.js"></script>
 
-
-
-
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/jquery.fittext.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url() ?>/js/kwiks.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/global.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/wow.min.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/creative.js"></script>
-<script type="text/javascript" src="<?php // echo get_site_url(); ?>/js/SmoothScroll.js"></script>
 <?php wp_footer(); // Footer hook, do not delete, ever ?>
 </body>
 </html>
-
-
-
