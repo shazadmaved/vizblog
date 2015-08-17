@@ -534,51 +534,6 @@ div.img {
 }
 
 
-/** Footer */
-#footer {
-	background: none;
-	padding: 0;
-}
-#footer a,
-#footer a:active,
-#footer a:visited {
-	color: #fff;
-}
-#footer a:hover {
-	color: #ffd846;
-}
-#footer .fb-contact,
-#footer .linkedin-contact,
-#footer .youtube-contact,
-#footer .twitter-contact {
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-}
-#footer .fb-contact {
-	background-image: url(/images/home_footer_fb.svg);
-}
-#footer .fb-contact:hover {
-	background-image: url(/images/home_footer_fb_c.svg);
-}
-#footer .linkedin-contact {
-	background-image: url(/images/home_footer_linkedin.svg);
-}
-#footer .linkedin-contact:hover {
-	background-image: url(/images/home_footer_linkedin_c.svg);
-}
-#footer .youtube-contact {
-	background-image: url(/images/home_footer_youtube.svg);
-}
-#footer .youtube-contact:hover {
-	background-image: url(/images/home_footer_youtube_c.svg);
-}
-#footer .twitter-contact {
-	background-image: url(/images/home_footer_twitter.svg);
-}
-#footer .twitter-contact:hover {
-	background-image: url(/images/home_footer_twitter_c.svg);
-}
 
 
 /** Main content */
